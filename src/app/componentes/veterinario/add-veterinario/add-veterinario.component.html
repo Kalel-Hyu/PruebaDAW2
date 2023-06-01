@@ -1,0 +1,32 @@
+<p>add-veterinario works!</p>
+<div class="container col-md-6">
+    <div class="card-header">
+        <h3> Agregar Veterinarios</h3>
+    </div>
+    <div class="card-body">
+        <form action="">
+            <div class="form-group">
+                <label for="">Nombres:</label>
+                <input type="text" [ngModel]="modelVeterinario.nombres" name="nombres" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">Apellido Paterno:</label>
+                <input type="text" [ngModel]="modelVeterinario.apellidoPaterno" name="apellidoMaterno" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">Apellido Materno:</label>
+                <input type="text" [ngModel]="modelVeterinario.apellidoMaterno" name="apellidoMaterno" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">Especialidad:</label>
+                <input type="text" [ngModel]="modelVeterinario.especialidad" name="especialidad" class="form-control">
+            </div>
+            <button (click)="guardar(modelVeterinario)" class="btn btn-danger" >Guardar</button>
+        </form>
+
+
+    </div>
+
+
+
+</div>

@@ -1,0 +1,16 @@
+<p>add-especialidad works!</p>
+<div class="container col-md-6">
+    <div class="card-header">
+        <h3> Agregar Especialidades </h3>
+    </div>
+    <div class="card-body">
+        <form action="">
+
+            <div class="form-group">
+                <label for="">Descripcion:</label>
+                <input type="text" [(ngModel)]="modelEspecialidad.descripcion" name="descripcion" class="form-control">
+            </div>
+            <button (click)="guardar(modelEspecialidad)" class="btn btn-danger" >Guardar</button>
+        </form>
+    </div>
+</div>

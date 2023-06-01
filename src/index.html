@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>RimbeiroFront</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> -->
+
+  <!-- INICIO LINK SEBAS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Poppins:wght@600;800&display=swap"
+    rel="stylesheet">
+  <!-- FIN LINK SEBAS -->
+
+  <style>
+    /* INICIO BARRA NAVEGACION */
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .amicuenta {
+      /* font-family: 'Ubuntu', sans-serif; */
+      font-family: 'Poppins', sans-serif;
+      color: antiquewhite;
+      text-decoration: none;
+    }
+
+    .amicuentaButton {
+      font-family: 'Ubuntu', sans-serif;
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+
+      border-radius: 20px;
+      background-color: purple;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+
+    }
+
+    .amicuentaButton:hover {
+      color: greenyellow;
+    }
+
+    nav a img {
+      height: 30px;
+      width: auto;
+    }
+
+    /* FIN BARRA NAVEGACION */
+
+    main {
+      margin: 20px;
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: calc(100vh - 70px);
+    }
+
+    h1 {
+      font-size: 4rem;
+      margin-top: 10%;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    button {
+      font-size: 1.5rem;
+      margin-top: 10px;
+      padding: 10px 30px;
+      margin-right: 80%;
+      display: flex;
+
+      justify-content: flex-start;
+      align-items: center;
+      height: auto;
+
+    }
+
+    .boton-decorado {
+      background-color: #f50057;
+      border: 2px solid #fff;
+      /* background-color: transparent; */
+      color: white;
+      border-radius: 15px;
+      cursor: pointer;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .boton-decorado:hover {
+      background-color: #fff;
+      color: #333;
+      transform: scale(1.1);
+
+    }
+
+    .encabezado {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      color: #fff;
+      padding: 0 20px;
+    }
+
+    body {
+      background-image: url('assets/images/FondoPrincipal.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+
+<body>
+   
+  <nav class="barranavegacion">
+    <a class="amicuenta" href="#"><img src="assets/images/RIMBERIO.png" alt="Regresar a inicio"></a>
+    <a class="amicuenta" href="#">Quiénes somos</a>
+    <a class="amicuenta" href="#">Nuestra familia</a>
+    <a class="amicuenta" href="#">Especialidades</a>
+    <a class="amicuenta" href="#">Servicios</a>
+    <a class="amicuenta" href="#">Contactanos</a>
+  
+    <a class="amicuentaButton" href="#">Ingresar</a>
+    <a class="amicuentaButton" href="#">Registrarse</a>
+    </nav>
+  <main>
+    <section>
+      <header class="encabezado">
+        <h1>UN ESLOGAN <br> CHEVERE</h1>
+      </header>
+
+      <!-- <button class="boton-decorado">Reserva tu cita →</button> -->
+      <app-root></app-root>
+    </section>
+
+  </main>
+
+</body>
+
+</html>
